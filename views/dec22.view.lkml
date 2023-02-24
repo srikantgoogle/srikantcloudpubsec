@@ -116,4 +116,11 @@ view: dec22 {
     type: count
     drill_fields: [billing_account_name, project_name]
   }
+
+  measure: total_spent_cost {
+    type: sum
+    sql: ${cost____} ;;
+    value_format: "$#.00;($#.00)"
+
+  }
 }
