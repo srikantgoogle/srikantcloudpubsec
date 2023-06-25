@@ -64,6 +64,6 @@ view: patient_vital_info {
   }
   measure: count {
     type: count
-    drill_fields: []
+    drill_fields:[]
   }
 }
